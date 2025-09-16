@@ -7,9 +7,9 @@ import random
 
 app = Flask(__name__)
 
-API_KEY = "222edc7b8231694f092a8aa13a50e300"
+API_KEY = ""
 endpoint = 'convert'
-access_key = '8e603277fdca98bf0ed7766911237473'
+access_key = ''
 
 def typing_delay(seconds=2):
     time.sleep(seconds)
